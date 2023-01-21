@@ -1,0 +1,116 @@
+body{
+	background: #FADBD8 ;
+}
+header{
+	background-color: white;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header a{
+	font-weight: bolder;
+	text-decoration: none;
+	color:black;
+	font-size: 2em;
+}
+header button{
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 1em;
+	padding: 10px;
+	border: none;
+	background: rosybrown;
+}
+#curriculum{
+	color: black;
+	text-align: left;
+}
+h1{
+	color: indianred;
+	text-align: center;
+}
+h2{
+	font-size: 20px;
+}
+#uno{
+	background: white;
+	display: flex;
+	justify-content: center;
+	color: black;
+}
+#imagen{
+	width: 40%;
+	height: 30%;
+	display: flex;
+	justify-content: right;
+}
+#imagen img {
+	width: 40%;
+	height: 50%;
+	margin: 50px 50px
+}
+#dos{
+	font-size: 18px;
+	margin: 0px 200px;
+	line-height: 30px;
+}
+#tres{
+	font-size: 18px;
+	font-weight: initial;
+	margin: 0px 200px;
+	line-height: 30px;
+}
+#cuatro{
+	font-size: 18px;
+	font-weight: initial;
+	margin: 0px 200px;
+	line-height: 30px;
+}
+#cinco{
+	font-size: 18px;
+	font-weight: initial;
+	margin: 0px 200px;
+	line-height: 30px;
+}
+#seis{
+	font-size: 18px;
+	font-weight: initial;
+	margin: 0px 200px;
+}
+@media screen and (max-width: 510px){
+	#dos{
+		width: 100%;
+		text-align: justify;
+		font-size: 20px;
+		margin: 5px;
+	}
+#tres{
+		width: 100%;
+		text-align: justify;
+		font-size: 20px;
+		margin: 5px;
+	}
+#cuatro{
+		width: 100%;
+		text-align: justify;
+		font-size: 20px;
+		margin: 5px;
+	}
+#cinco{
+		width: 100%;
+		text-align: justify;
+		font-size: 20px;
+		margin: 5px;
+	}
+#seis{
+		width: 100%;
+		text-align: justify;
+		font-size: 20px;
+		margin: 5px;
+	}
+}
+body.darkmode{
+	background-color: rgb(32,32,44);
+	color: white;
+}
